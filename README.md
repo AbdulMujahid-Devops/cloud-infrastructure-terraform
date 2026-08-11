@@ -1,6 +1,20 @@
 # Cloud Infrastructure Terraform
 
-Production-style AWS infrastructure as code demonstrating Senior DevOps practices: reusable Terraform modules, remote state, environment separation, IAM least privilege, validation, and CI.
+> **About:** Production-style AWS infrastructure automation using Terraform, reusable modules, networking, IAM, storage, environment separation, and CI validation. This project demonstrates how a DevOps engineer can define repeatable cloud infrastructure as code instead of relying on manual console configuration.
+
+## What this project demonstrates
+
+This repository models a real-world Infrastructure as Code workflow. Terraform is used to describe cloud resources in a predictable, reviewable, and repeatable way. The design separates reusable modules from environment-specific configuration so the same engineering patterns can be promoted from development toward production.
+
+### Key capabilities
+- Reusable Terraform modules
+- AWS networking and storage patterns
+- Environment-specific configuration
+- Terraform formatting and validation in CI
+- IAM least-privilege principles
+- Consistent resource tagging
+- Safe handling of credentials and state
+- Infrastructure changes reviewed through Git
 
 ## Architecture
 
